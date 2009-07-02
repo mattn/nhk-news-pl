@@ -49,7 +49,7 @@ $vbox->pack_start( $feeds, 0, 0, 0 );
 ### Entries
 $entries = Gtk2::SimpleList->new(
 	'ニュース一覧' => 'text',
-	'URL'                => 'text'
+	'URL'          => 'text'
 );
 $entries->signal_connect(
 	row_activated => sub {
